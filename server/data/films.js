@@ -119,8 +119,6 @@ const filmsData = [
     Poster: "https://m.media-amazon.com/images/M/MV5BN2MzY2MzZjItZjY0OC00YjdkLWJjZjUtNmNlYzI0ODE2MTU3XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg",
     imdbVotes: 121,
   },
-
-
 ];
 
 export default filmsData;

@@ -13,9 +13,8 @@ import {
   getActorById,
   createActor,
   updateActorById,
-  deleteActorById,  
+  deleteActorById,
 } from '../controllers/actors.js';
-
 
 const filmsRouter = express.Router();
 
@@ -42,8 +41,5 @@ filmsRouter.post('/actor', createActor);
 filmsRouter.put('/actor/:id', updateActorById);
 
 filmsRouter.delete('/actor/:id', deleteActorById);
-
-
-
 
 export default filmsRouter;

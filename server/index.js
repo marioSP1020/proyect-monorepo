@@ -2,24 +2,20 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import logger from './lib/logger.js';
 import mongoose from 'mongoose';
+import cors from 'cors';
 
 //MIDDLEWARE
 import httpLoggerMiddleware from './middleware/logger-middleware.js';
 import jsonResponseMiddleware from './middleware/json-response.js';
 import errorHandlerMiddleware from './middleware/error-handler.js';
 
-
-//Error [ERR_MODULE_NOT_FOUND]: Cannot find module 
-//'/home/mario/development/proyect-monorepo/server/middleware/logger-middleware' imported from 
+//Error [ERR_MODULE_NOT_FOUND]: Cannot find module
+//'/home/mario/development/proyect-monorepo/server/middleware/logger-middleware' imported from
 // home / mario / development / proyect - monorepo / server / index.js
 //Did you mean to import ../middleware/logger-middleware.js?
 
-
-
-
 //ROUTER
 import filmsRouter from './routes/films.js';
-
 
 const HOST = 'localhost';
 const PORT = 5000;
@@ -38,6 +34,7 @@ mongoose.connect(databaseURI, {
 
 // El servidor utilizará como deserializador de data bodyparser y deserializara en JSON
 app.use(bodyParser.json());
+app.use(cors());
 // Utiliza un middleware que permite tener descripciones mas especificas en la consola
 app.use(httpLoggerMiddleware);
 // Utiliza un middleware que permite crear headers de respuesta que indiquen que el contenido es JSON
@@ -48,7 +45,6 @@ app.use(filmsRouter);
 
 // Sino no hay rutas definidas envia error al cliente
 app.use(errorHandlerMiddleware);
-
 
 //NUESTRO SERVIDOR ESCUCHA PETICIONES POR EL PUERTO QUE DEFINIMOS
 

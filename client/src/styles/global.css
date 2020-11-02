@@ -5,3 +5,13 @@
 body {
   font-size: 100%;
 }
+
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

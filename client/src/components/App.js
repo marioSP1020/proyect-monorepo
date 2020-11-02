@@ -19,7 +19,12 @@ const App = () => {
       <h1>PROYECT</h1>
       <section>
         {data.map((item) => (
-          <div key={item._key}>{item.Poster}</div>
+          <article key={item._id}>
+            <h2>{item.Title}</h2>
+            <picture>
+              <img src={item.Poster} alt={item.Title} />
+            </picture>
+          </article>
         ))}
       </section>
     </>

@@ -12,6 +12,7 @@ const filmSchema = new mongoose.Schema(
     Awards: String,
     Poster: String,
     imdbVotes: Number,
+    Trailer: String,
   },
   {
     timestamps: true,

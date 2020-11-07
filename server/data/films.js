@@ -10,6 +10,7 @@ const filmsData = [
     Awards: "1 win & 8 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX300.jpg",
     imdbVotes: 427779,
+    Trailer: "https://www.youtube.com/embed/H3vQbMSVlDw",
   },
   {
     Title: "The Incredible Hulk",
@@ -22,6 +23,7 @@ const filmsData = [
     Awards: "Won 1 Primetime Emmy. Another 2 wins & 5 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BODc3YTIwY2ItMDU3MS00ZTFlLWJjOTAtNmE4M2M0NWI4MWE1XkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg",
     imdbVotes: 11502,
+    Trailer: "https://www.youtube.com/embed/oY5vxacjDgE",
   },
   {
     Title: "Titanic",
@@ -34,6 +36,7 @@ const filmsData = [
     Awards: "Won 11 Oscars. Another 112 wins & 83 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
     imdbVotes: 1029426,
+    Trailer: "https://www.youtube.com/embed/kVrqfYjkTdQ",
   },
   {
     Title: "Titanic",
@@ -46,6 +49,7 @@ const filmsData = [
     Awards: "4 wins & 9 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMTA4MjIyZWEtZjYwMS00ZmQ1LWJiMDEtMWNiNTI5NWE3OGJjXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_SX300.jpg",
     imdbVotes: 3006,
+    Trailer: "https://www.youtube.com/embed/YTuzZcnZKIo",
   },
   {
     Title: "Joker",
@@ -58,6 +62,7 @@ const filmsData = [
     Awards: "Won 2 Oscars. Another 104 wins & 218 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
     imdbVotes: 883048,
+    Trailer: "https://www.youtube.com/embed/-_DJEzZk2pc",
   },
   {
     Title: "Joker Game",
@@ -70,6 +75,7 @@ const filmsData = [
     Awards: "1 nomination.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMTgyNjczOGItOTczNi00MDk4LWIzMjktYTM3NWU4YmQ4MWVkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_SX300.jpg",
     imdbVotes: 513,
+    Trailer: "https://www.youtube.com/embed/3QBLGY3nLPQ",
   },
   {
     Title: "Star Wars: Episode IX - The Rise of Skywalker",
@@ -82,6 +88,7 @@ const filmsData = [
     Awards: "Nominated for 3 Oscars. Another 7 wins & 38 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
     imdbVotes: 354619,
+    Trailer: "https://www.youtube.com/embed/8Qn_spdM5Zg",
   },
   {
     Title: "Star Wars: Episode V - The Empire Strikes Back",
@@ -94,6 +101,7 @@ const filmsData = [
     Awards: "Won 1 Oscar. Another 24 wins & 20 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
     imdbVotes: 1136399,
+    Trailer: "https://www.youtube.com/embed/ua0omrHbhMY",
   },
   {
     Title: "The Amazing Spiderman T4 Premiere Special",
@@ -106,6 +114,7 @@ const filmsData = [
     Awards: "1 win & 8 nominations.",
     Poster: "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_SX300.jpg",
     imdbVotes: 427779,
+    Trailer: "https://www.youtube.com/embed/IOcioNyLHII",
   },
   {
     Title: "Mel Gibson's 'Braveheart': A Filmmaker's Passion",
@@ -116,8 +125,9 @@ const filmsData = [
     Actors: "Mel Gibson, Randall Wallace, Catherine McCormack, Bruce Davey",
     Plot: "A very well structured making-of ducumentary for the film Braveheart (1995). We learn about how Mel Gibson got attached to the project as star, director and producer. This is a fairly ...",
     Awards: "Won 5 Oscar. Another won 5 & 10 nominations",
-    Poster: "https://m.media-amazon.com/images/M/MV5BN2MzY2MzZjItZjY0OC00YjdkLWJjZjUtNmNlYzI0ODE2MTU3XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg",
+    Poster: "https://i.pinimg.com/originals/0e/69/d9/0e69d9d5954e0bb818e03c7cf497bb9b.jpg",
     imdbVotes: 121,
+    Trailer: "https://www.youtube.com/embed/1NJO0jxBtMo",
   },
 ];
 
